@@ -10,6 +10,7 @@ import PlaceOrder from './pages/PlaceOrder.jsx'
 import Orders from './pages/Orders.jsx'
 import Cart from './pages/Cart.jsx'
 import Navbar from './components/Navbar.jsx'
+import SearchBar from './components/SearchBar.jsx'
 import Footer from './components/Footer.jsx'
 
 const App = () => {
@@ -17,6 +18,7 @@ const App = () => {
     
       <div className='px-4 sm:px-[7vw] lg:px-[9vw]'>
         <Navbar/>
+        <SearchBar/>
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/about' element={<About />} />
